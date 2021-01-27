@@ -1,5 +1,4 @@
-/* eslint-disable func-names */
-/* eslint-disable no-console */
+/* eslint-disable linebreak-style */
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import styled from 'styled-components';
@@ -40,7 +39,7 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
 
       <Head>
-        <title>Quiz Hollow Knigth</title>
+        <title>Quiz Hollow Knight</title>
       </Head>
 
       <QuizContainer>
@@ -51,7 +50,8 @@ export default function Home() {
           </Widget.Header>
 
           <Widget.Content>
-            <p>Lorem Ipsum</p>
+            <p>Teste os seus conhecimentos sobre a história do vasto mundo de Hollow Night!</p>
+            <small>⚠ Este quiz contem spoilers do jogo</small>
             <form onSubmit={function (infosEventos) {
               infosEventos.preventDefault();
               router.push(`/quiz?name=${name}`);
@@ -65,7 +65,7 @@ export default function Home() {
                 placeholder="Coloque o seu nome para jogar!"
               />
               <button type="submit" disabled={name.length <= 2}>
-                Vamos Jogar, {name}!
+                Vamos Jogar {name}!
               </button>
             </form>
           </Widget.Content>
@@ -84,5 +84,6 @@ export default function Home() {
       <GitHubCorner />
 
     </QuizBackground>
+
   );
 }
