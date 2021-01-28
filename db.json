@@ -4,15 +4,15 @@
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://i.pinimg.com/564x/2b/55/d5/2b55d5d304c276be20d6bdbd72f6a5b4.jpg",
+      "title": "Qual desses não é um dos Cinco grandes cavaleiros?",
       "description": "Essa é pra aquecer",
-      "answer": 2,
+      "answer": 3,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Dryya",
+        "Isma",
+        "Ogrim",
+        "Califer"
       ]
     },
     {
