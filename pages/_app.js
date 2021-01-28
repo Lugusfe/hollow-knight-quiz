@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable react/jsx-indent */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
@@ -41,9 +43,9 @@ export default function App({ Component, pageProps }) {
     // eslint-disable-next-line react/react-in-jsx-scope
     <>
       <Head>
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" />
-        <link rel="icon" type="image/png" href="https://hollowknight.com/wp-content/uploads/2018/09/cropped-knight_head.png" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet" />
+      <link rel="icon" type="image/png" href="https://hollowknight.com/wp-content/uploads/2018/09/cropped-knight_head.png" />
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />

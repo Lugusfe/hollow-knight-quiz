@@ -1,5 +1,6 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable react/jsx-no-bind */
 /* eslint-disable func-names */
-/* eslint-disable no-console */
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import styled from 'styled-components';
@@ -7,11 +8,13 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import db from '../db.json';
-import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
+import QuizLogo from '../src/components/QuizLogo';
+import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
-import QuizLogo from '../src/components/QuizLogo';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 // eslint-disable-next-line no-unused-vars
 const BackgroundImage = styled.div`
@@ -35,38 +38,39 @@ export const QuizContainer = styled.section`
 export default function Home() {
   const router = useRouter();
   const [name, setName] = React.useState('');
+
   return (
     // eslint-disable-next-line react/jsx-filename-extension
     <QuizBackground backgroundImage={db.bg}>
 
       <Head>
-        <title>Quiz Hollow Knigth</title>
+        <title>Quiz Hollow Knight</title>
       </Head>
 
       <QuizContainer>
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Hollow Knigth</h1>
+            <h1>Hollow Knight Quiz</h1>
           </Widget.Header>
 
           <Widget.Content>
-            <p>Lorem Ipsum</p>
+            <p>Teste os seus conhecimentos sobre a história do vasto mundo de Hollow Night!</p>
+            <small>⚠ Este quiz contem spoilers do jogo</small>
             <form onSubmit={function (infosEventos) {
               infosEventos.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('submetendo');
             }}
             >
-              <input
-                onChange={function (infosEventos) {
-                  setName(infosEventos.target.value);
-                }}
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosEventos) => { setName(infosEventos.target.value); }}
                 placeholder="Coloque o seu nome para jogar!"
+                value={name}
               />
-              <button type="submit" disabled={name.length <= 2}>
-                Vamos Jogar, {name}!
-              </button>
+              <Button type="submit" disabled={name.length <= 2}>
+                {`Vamos Jogar ${name}!`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
@@ -84,5 +88,6 @@ export default function Home() {
       <GitHubCorner />
 
     </QuizBackground>
+
   );
 }
