@@ -1,12 +1,36 @@
 {
   "bg":"https://wallpapercave.com/wp/wp2852274.png",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "title": "Quiz de Hollow Knight",
+  "description": "Até onde você sabe obre o universo de Hollow Knight?",
   "questions": [
+    {
+      "image": "https://images6.alphacoders.com/851/851622.jpg",
+      "title": "Um dos mais icônicos personagens da história!",
+      "description": "Qual a relação do Hollow Night com a Hornet?",
+      "answer": 1,
+      "alternatives": [
+         "Prima",
+         "Irmã",
+         "Amiga",
+         "Desconhecida"
+      ]
+    },
+    {
+      "image": "https://i.ytimg.com/vi/4uNfdLheJAk/maxresdefault.jpg",
+      "title": "Um gesto de heroismo porém acidental",
+      "description": "O Hollow Knight mesmo que sem intenção consegue salvar um dos habitantes da praga, mas quem?",
+      "answer": 0,
+      "alternatives": [
+        "Sly",
+        "Oro",
+        "Bretta",
+        "Seer"
+      ]
+    },
     {
       "image": "https://i.pinimg.com/564x/2b/55/d5/2b55d5d304c276be20d6bdbd72f6a5b4.jpg",
       "title": "Qual desses não é um dos Cinco grandes cavaleiros?",
-      "description": "Essa é pra aquecer",
+      "description": "Os detalhes são importantes!",
       "answer": 3,
       "alternatives": [
         "Dryya",
@@ -16,13 +40,39 @@
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
-      "answer": 0,
+      "image": "https://cdn.discordapp.com/attachments/749476079068250145/804403370734518272/1000.png",
+      "title": "Uma beleza delicada e graciosa",
+      "description": "A missão da flor tem o objetivo de:",
+      "answer": 2,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Dar o amor aos habitantes do Reino",
+        "Conceder a luz da flor delicada para o Inseto ansião",
+        "Levar ao túmulo do falecido amor da Pranteadora Cinzenta",
+        "Oferecer ao Godseeker como agradecimento dos seus atos"
+      ]
+    },
+    {
+      "image": "https://tecnoblog.net/wp-content/uploads/2020/11/como_jogar_hollow_knight-e1604507508666.jpg",
+      "title": "O Receptáculo",
+      "description": "Do que é feito o Hollow Knght?",
+      "answer": 3,
+      "alternatives": [
+        "Vazio",
+        "Sonhos",
+        "Alma",
+        "Carapaça"
+      ]
+    },
+    {
+      "image": "https://cdna.artstation.com/p/assets/images/images/022/715/726/large/devanshu-tak-gitgud15.jpg?1576445119",
+      "title": "A Radiância",
+      "description": "Por qual motivo precisa-se enfrentar o Cavaleiro Vazio para matar A Radiância?",
+      "answer": 2,
+      "alternatives": [
+        "Ela Parasitou O Cavaleiro Vazio e ao entrar nele se enfrenta A Radiância",
+        "O Cavaleiro Vazio é A Radiância na sua forma física",
+        "A Radiância só existe no mundo dos sonhos e se entra nele pelo Cavaleiro vazio",
+        "O Cavaleiro Vazio protege A Radiância"
       ]
     }
   ],
@@ -33,7 +83,7 @@
     "colors": {
       "box": "#2a2e35",
       "primary": "#21314a",
-      "secondary": "#506386",
+      "secondary": "#38435a",
       "mainBg": "#171B35",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",

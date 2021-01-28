@@ -25,7 +25,7 @@ const ButtonBase = styled.button`
     }
 
     &:hover{
-    opacity: 0.7;
+      background-color: ${({ theme }) => theme.colors.primary};
     }
 
     &:hover{
