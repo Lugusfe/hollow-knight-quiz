@@ -2,6 +2,7 @@
   "bg":"https://wallpapercave.com/wp/wp2852274.png",
   "title": "Quiz de Hollow Knight",
   "description": "Até onde você sabe obre o universo de Hollow Knight?",
+  "loadingImage": "https://media.tenor.com/images/59db107b2195097bbad7031959d184d8/tenor.gif",
   "questions": [
     {
       "image": "https://images6.alphacoders.com/851/851622.jpg",
@@ -84,11 +85,13 @@
       "box": "#2a2e35",
       "primary": "#21314a",
       "secondary": "#38435a",
+      "tertiary":"#000000",
       "mainBg": "#171B35",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
     },
     "borderRadius": "6px"
+    
   }
 }

@@ -34,6 +34,7 @@ Widget.Header = styled.header`
 `;
 Widget.Content = styled.div`
   box-sizing:border-box;
+  
   align-items:center;
   padding: 24px 32px 32px 32px;
   & > *:first-child{
@@ -45,6 +46,10 @@ Widget.Content = styled.div`
   ul{
     list-style: none;
     padding: 0;
+  }
+  img{
+    width: 100%;
+    height: 100%;
   }
   
 `;
