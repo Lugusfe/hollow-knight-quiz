@@ -47,7 +47,7 @@
       "answer": 2,
       "alternatives": [
         "Dar o amor aos habitantes do Reino",
-        "Conceder a luz da flor delicada para o Inseto ansião",
+        "Conceder a luz da flor delicada para o Inseto ancião",
         "Levar ao túmulo do falecido amor da Pranteadora Cinzenta",
         "Oferecer ao Godseeker como agradecimento dos seus atos"
       ]
@@ -56,7 +56,7 @@
       "image": "https://tecnoblog.net/wp-content/uploads/2020/11/como_jogar_hollow_knight-e1604507508666.jpg",
       "title": "O Receptáculo",
       "description": "Do que é feito o Hollow Knght?",
-      "answer": 3,
+      "answer": 0,
       "alternatives": [
         "Vazio",
         "Sonhos",
@@ -78,7 +78,8 @@
     }
   ],
   "external": [
-    ""
+    "https://1sec-quiz.victoroda.vercel.app",
+    "https://quiz-valorant.johnatanivini.vercel.app"
   ],
   "theme": {
     "colors": {
